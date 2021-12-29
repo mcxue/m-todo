@@ -1,0 +1,17 @@
+{
+  "name": "m-todo",
+  "version": "1.0.2",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "t": "cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
+  "dependencies": {
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0"
+  }
+}
