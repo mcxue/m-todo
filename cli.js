@@ -1,14 +1,12 @@
 #!/usr/bin/env node
 import {Command} from 'commander/esm.mjs'
 import api from './index.js'
-import fs from 'fs'
-import path from 'path'
 
 // const pkg = JSON.parse(fs.readFileSync(path.resolve('./package.json'), 'utf-8'))
 const program = new Command()
 
 program
-  .version('1.0.2')
+  .version('1.0.3')
   .command('add <task-name...>')
   .description('add a todo')
   .action(async (args) => {

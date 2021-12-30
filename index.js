@@ -10,10 +10,12 @@ const add = async (args) => {
     })
   })
   await db.write(list)
+  console.log('添加成功')
 }
 
 const clear = async () => {
   await db.write([])
+  console.log('清除成功')
 }
 
 const askForRenameTask = (list, index) => {
